@@ -5,5 +5,7 @@
   "module_name": "",
   "version": "0.0.1",
   "description": "{{cookiecutter.module_name}}",
-  "dir_name": "{{cookiecutter.module_name.lower().replace(' ', '_')}}"
+  "dir_name": "{{cookiecutter.module_name.lower().replace(' ', '_')}}",
+  "class_name": "{{cookiecutter.module_name.title().replace(' ', '')}}",
+  "inherit_from": ""
 }

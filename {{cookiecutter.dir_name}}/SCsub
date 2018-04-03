@@ -2,7 +2,8 @@
 Import('env')
 
 sources = [
-    "register_types.cpp"
+    "register_types.cpp",
+    "{{cookiecutter.dir_name}}.cpp"
 ]
 
 module_env = env.Clone()
