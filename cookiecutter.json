@@ -1,0 +1,9 @@
+{
+  "full_name": "Niklas Andersson",
+  "email": "me@niklasandersson.net",
+  "github_username": "niklasandersson",
+  "module_name": "",
+  "version": "0.0.1",
+  "description": "{{cookiecutter.module_name}}",
+  "dir_name": "{{cookiecutter.module_name.lower().replace(' ', '_')}}"
+}
